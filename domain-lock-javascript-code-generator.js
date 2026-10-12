@@ -1,17 +1,3 @@
-<script>
-  (function(){
-"use strict";
-var d=["bloggerhelp.in"],h=String(location.hostname||"").toLowerCase().replace(/\.$/,"");
-h=h.replace(/^www\./,"");
-if(d.indexOf(h)===-1){
-var b=document.getElementById("protectedCodes_wb363w");
-if(b){b.textContent="This code is not authorized to run on this website.";}
-setTimeout(function(){location.replace("https://www.bloggerhelp.in/p/domain-lock-js-generator.html");},5000);
-return;
-}
-document.addEventListener("keydown",function(e){var k=String(e.key).toLowerCase();if(k==="f12"||(e.ctrlKey&&(["u","s","p","c"].indexOf(k)!==-1||(e.shiftKey&&["i","j"].indexOf(k)!==-1)))){e.preventDefault();}},true);
-})();
-  
   
 (function(){
   "use strict";
@@ -264,4 +250,17 @@ document.addEventListener("keydown",function(e){var k=String(e.key).toLowerCase(
   original.addEventListener("input",updateCharacterCount);
   updateCharacterCount();
 })();
-</script>
+
+
+  (function(){
+"use strict";
+var d=["bloggerhelp.in"],h=String(location.hostname||"").toLowerCase().replace(/\.$/,"");
+h=h.replace(/^www\./,"");
+if(d.indexOf(h)===-1){
+var b=document.getElementById("protectedCodes_wb363w");
+if(b){b.textContent="This code is not authorized to run on this website.";}
+setTimeout(function(){location.replace("https://www.bloggerhelp.in/p/domain-lock-js-generator.html");},5000);
+return;
+}
+document.addEventListener("keydown",function(e){var k=String(e.key).toLowerCase();if(k==="f12"||(e.ctrlKey&&(["u","s","p","c"].indexOf(k)!==-1||(e.shiftKey&&["i","j"].indexOf(k)!==-1)))){e.preventDefault();}},true);
+})();
